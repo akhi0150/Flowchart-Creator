@@ -1,0 +1,20 @@
+{
+  "name": "flowchart-tools",
+  "interface": {
+    "displayName": "Flowchart Tools"
+  },
+  "plugins": [
+    {
+      "name": "flowchart-creator",
+      "source": {
+        "source": "local",
+        "path": "./plugins/flowchart-creator"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
